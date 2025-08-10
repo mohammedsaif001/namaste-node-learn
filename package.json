@@ -4,7 +4,7 @@
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/4-mongodb-connection.js"
+    "dev": "nodemon src/6-mongo-to-api.js"
   },
   "author": "Mohammed Saif",
   "license": "ISC",
