@@ -124,6 +124,13 @@ app.use(
   }
 );
 
+// I can add it like this also all the route handlers
+// This will also work
+// app.use("/route", rH1, [rh2, rh3, rh4]);
+// app.use("/route", [rH1, rh2, rh3, rh4]);
+// app.use("/route", [rH1, rh2], rh3, rh4);
+// app.use("/route", [rH1], rh2, rh3, rh4);
+
 app.listen("7777", () => {
   console.log("Server is Listening at Port 7777");
 });
